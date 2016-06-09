@@ -1,0 +1,68 @@
+/*css stylesheet*/
+#body{
+    background-color:#e5eaed;
+}
+h2{
+    text-align: center;
+    padding-bottom:2%;
+}
+#banner{
+    background-color:#36454f;
+    box-shadow: 0 .5px 0 #666, 0 6px 0 #444, 2px 7px 7px rgba(0,0,0,0.6);
+}
+#navButton{
+    background-color:#36454f;
+    border-color: #36454f;
+    border-radius: 0mm;
+    position:relative;
+}
+#navButton:hover{
+    outline:none;
+    box-shadow: 0 2px 0 #36454f, 0 3px 0 #001, 0 8.5px 0px #91b0ae;
+}
+#navButton:active{
+    background-color: #40525e;
+    border-color: #40525e; 
+    outline:none;
+    box-shadow: 0 2px 0 #36454f, 0 3px 0 #001, 0 8.5px 0px #91b0ae;
+}
+#navButton:focus{
+    outline:none;
+}
+
+.buttonBox{
+    margin-left:auto;
+    margin-right:auto;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-around;
+}
+
+#card1 {
+    margin-top: 15px;
+}
+#pBody{
+    padding:0px;
+}
+#trainGif{
+    width:100%;
+    max-height:520px;
+    height:auto;
+}
+#gifBackground1{
+    position:relative;
+    max-height:500px;
+}
+.timeTable{
+    top: 33%;
+    left: 9%;
+    position:absolute;
+    text-align:center;
+    font-size:130%;
+    height:auto;
+    margin-right:2%;   
+    font-style: bold;
+    color: #f9fafb;
+    text-shadow: 1px 0px 6px #1a2225, 6px 5px 4px #303d43;
+}
