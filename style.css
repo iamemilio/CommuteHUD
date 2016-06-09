@@ -1,14 +1,25 @@
 /*css stylesheet*/
 #body{
     background-color:#e5eaed;
+    
 }
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
 h2{
     text-align: center;
     padding-bottom:2%;
 }
+
 #banner{
     background-color:#36454f;
     box-shadow: 0 .5px 0 #666, 0 6px 0 #444, 2px 7px 7px rgba(0,0,0,0.6);
+    z-index:1;
 }
 #navButton{
     background-color:#36454f;
@@ -29,7 +40,6 @@ h2{
 #navButton:focus{
     outline:none;
 }
-
 .buttonBox{
     margin-left:auto;
     margin-right:auto;
@@ -39,16 +49,16 @@ h2{
     justify-content: space-around;
 }
 
-#card1 {
-    margin-top: 15px;
-}
 #pBody{
     padding:0px;
 }
 #trainGif{
+    top:0;
     width:100%;
     max-height:520px;
     height:auto;
+    box-shadow: 6px 5px 12px #36454f;
+    z-index: 0;
 }
 #gifBackground1{
     position:relative;
@@ -66,3 +76,11 @@ h2{
     color: #f9fafb;
     text-shadow: 1px 0px 6px #1a2225, 6px 5px 4px #303d43;
 }
+.affix {
+      top: 0;
+      width: 100%;
+  } 
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  } 
